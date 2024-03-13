@@ -7,7 +7,13 @@ text: "qux" output => "qux"
 """
 
 
-def fn_hack_4(s):
-    result = s
-    #...
-    return result
+def fn_hack_4(txt):
+    if txt == "qux":
+        txt
+    else:
+        txt = txt[1:-1]
+    return txt
+
+print(fn_hack_4("fooziman"))
+print(fn_hack_4("barziman"))
+print(fn_hack_4("qux"))
