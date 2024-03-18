@@ -9,7 +9,7 @@ text: [] output => [0]
 """
 
 
-def fn_hack_6(txt):
+def fn_hack_7(txt):
     new_txt = []
     if not txt:
         new_txt = [0]
