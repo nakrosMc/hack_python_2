@@ -26,7 +26,7 @@ def fn_hack_8(txt):
     
     elif txt in (r3, r4):
             for i in range(len(txt)):
-                new_txt.append(len(txt) - i)
+                new_txt.append(str(len(txt) - i))
     
     return new_txt
 
