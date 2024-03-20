@@ -18,10 +18,8 @@ def fn_hack_8(txt):
     
     
     if txt in (r1, r2):
-        
-        if txt in (r1, r2):
-            for i, text in enumerate(txt):
-                new_txt.append(f"{text}-{i+1}")
+        for i, text in enumerate(txt):
+            new_txt.append(f"{text}-{i+1}")
         new_txt.reverse()
     
     elif txt in (r3, r4):
